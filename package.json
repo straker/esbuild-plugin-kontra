@@ -1,0 +1,21 @@
+{
+  "name": "esbuild-plugin-kontra",
+  "version": "1.0.0",
+  "description": "Esbuild plugin for Kontra.js to remove unused code from Classes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "keywords": [
+    "esbuild",
+    "esbuild-plugin",
+    "kontra",
+    "js13k"
+  ],
+  "author": "Steven Lambert <steven@sklambert.com> (http://sklambert.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "preprocess": "github:straker/preprocess"
+  },
+  "devDependencies": {}
+}
